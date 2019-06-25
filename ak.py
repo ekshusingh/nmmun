@@ -12,4 +12,4 @@ for key in mydict.keys():
 
 for key, value in sorted(mydict.items(), key=lambda item: item[1]):
     print("%s: %s" % (key, value))
-awstoken = "hello"
+AWS_KEY = "hello"
