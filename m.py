@@ -5,7 +5,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import getpass
 
-sender_email = str(raw_input("Enter your mail address"))
+sender_email = str(raw_input("Enter your mail address: "))
 receiver_email = str(raw_input("Enter the receiver email: "))
 subject = raw_input("Enter the Subject: ")
 body = raw_input("Type content of Body: ")
